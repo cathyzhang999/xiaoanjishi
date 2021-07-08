@@ -7,6 +7,13 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
+  <script>
+    var viewWidth=document.documentElement.clientWidth|| document.body.clientWidth
+    // var viewWidth = docEl.getBoundingClientRect().width || window.innerWidth;
+    var ratio= viewWidth/375
+    var fontSize=100* ratio
+    document.getElementsByTagName('html')[0].style['font-size']= fontSize+'px'
+  </script>
   <body>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>

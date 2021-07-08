@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url(e:\慕课网-前段\新课练习\vue-仿京东\jingdong\src\style\iconfont.css);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 100px;
+}
+
+body {
+  font-size: .12rem;
+  font-family: PingFangSC-Regular;
+  color: #333;
+}
+/*# sourceMappingURL=index.css.map */

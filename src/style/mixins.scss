@@ -1,0 +1,28 @@
+@mixin content_font{
+    color:#333;
+    font-family: PingFangSC-Regular;
+}
+
+@mixin ellipsis{
+    overflow:hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@mixin circle {
+    border-radius: 50%;
+    text-align: center;
+}
+
+@mixin circle_plus {
+    border-radius: 50%;
+    text-align: center;
+}
+
+@mixin goods_img{
+    height: 100%;
+}
+@mixin img_box {
+    overflow: hidden;
+    text-align: center;
+}
